@@ -1,9 +1,9 @@
 #!/bin/bash
 #===============================================================================
 #
-# FILE: getgeo.sh
+# FILE: import_geonames.sh
 #
-# USAGE: ./getgeo.sh
+# USAGE: ./import_geonames.sh
 #
 # DESCRIPTION: run the script so that the geodata will be downloaded and inserted into your
 # database
@@ -13,6 +13,7 @@
 # BUGS: ---
 # NOTES: ---
 # AUTHOR: Andreas (aka Harpagophyt )
+# AUTHOR_REVISION: dlevel
 # COMPANY: <a href="http://forum.geonames.org/gforum/posts/list/926.page" target="_blank" rel="nofollow">http://forum.geonames.org/gforum/posts/list/926.page</a>
 # VERSION: 1.3
 # CREATED: 07/06/2008
@@ -21,6 +22,7 @@
 # download.
 # 1.3 2011-08-07 Updated script with tree changes. Removes 2 obsolete records from "countryinfo" dump image,
 # updated timeZones table with raw_offset and updated postalcode to varchar(20).
+# 1.4 2013-06-19 Updated database to match new geonames files and column
 #===============================================================================
 #!/bin/bash
  
